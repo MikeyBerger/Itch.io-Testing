@@ -1,0 +1,71 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "PlayerMap",
+            "id": "1717439e-995f-48f5-9794-14bffd506dc3",
+            "actions": [
+                {
+                    "name": "OnBlue",
+                    "type": "Button",
+                    "id": "e18ca9c7-aca0-40f7-ab5f-e6cafb057d0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OnRed",
+                    "type": "Button",
+                    "id": "aaccac73-2ecd-42ef-984e-3ba03990984a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OnGreen",
+                    "type": "Button",
+                    "id": "10d26a31-bb65-4ec6-aff7-464a446c07f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "10caf020-e67c-4eba-86c9-b1a3b325988e",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnBlue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4fa82489-6830-4fcc-a6ab-883cac19e931",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnRed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fedce1e4-8ace-4a0f-9986-bc9c5787a543",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnGreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
